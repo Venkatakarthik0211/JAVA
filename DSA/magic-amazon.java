@@ -15,5 +15,6 @@ class Main
             base = base * 5;
         }
         System.out.println(ans);
+        in.close();
         }
 }

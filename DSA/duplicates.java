@@ -13,6 +13,7 @@ for(int i = 0; i<n; i++)
 res = res ^ a[i];
 }
 System.out.println(res);
+in.close();
 }
 }
 

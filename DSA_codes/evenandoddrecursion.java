@@ -1,5 +1,5 @@
 import java.util.*;
-public class fun 
+class fun 
 {
 	public static void main(String[] args) 
 	{
