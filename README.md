@@ -21,7 +21,7 @@ This repository serves as a portfolio of my progress in mastering data structure
 
 - Python 🐍
 - Java ☕
-- C++ 🧑‍💻
+- C 🧑‍💻
 
 I believe in learning through practical implementation, so I've implemented each algorithm and data structure in multiple languages to reinforce my understanding.
 
@@ -30,7 +30,15 @@ I believe in learning through practical implementation, so I've implemented each
 The repository is organized into the following main directories:
 
 - `DSA/`: Code for fundamental data structures revision.
+  - `Bit Manipulation/`: Code for fundamental Bit Manipulation Operations
 - `DSA_codes/`: Code for fundamental data structures.
+  - `Arrays/`: Codes are the implementation of Arrays.
+  - `Basics`: Codes are the implementation of Basic Programs such as loops, applications etc.
+  - `Linked List`: Codes are the implementation of Linked Lists
+  - `Miscellaneous`: Codes are the implementation of wide variety pf algorithms
+  - `Stacks and Queues`: Codes are the implementation of Stacks and Queues
+  - `Trees`: Codes are the implementation of Trees
+ 
 
 Feel free to explore and dive into specific directories based on your interest.
 
@@ -39,6 +47,6 @@ Feel free to explore and dive into specific directories based on your interest.
 You can easily navigate to the specific directory of interest and find the code implementation along with comments explaining the logic. Each file is designed to be self-contained, making it easy to understand and run independently.
 
 ```bash
-# Example: Run a Python implementation of a sorting algorithm
-cd algorithms/sorting
-python bubble_sort.py
+# Example: Run a Java implementation of a sorting algorithm
+cd DSA_codes/Arrays
+javac bubble_sort.java && java bubble_sort.java < output.txt
