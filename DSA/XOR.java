@@ -13,6 +13,11 @@ public class XOR {
         compute(n);
         System.out.println("Compute the XOR between two numbers");
         compute(n,i); 
+        System.out.println("Enter two numbers: ");
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int x = a^b;
+        count(x);
         in.close();
     }
     public static void swap(int a, int b)
@@ -49,5 +54,13 @@ public class XOR {
     public static void compute(int a, int b)
     {
         System.out.println("Compute XOR between n: "+(compute(a-1) ^ compute(b)));
+    }
+    public static void count(int n){
+        int count = 0;
+        while(n!=0){
+            n = n & (n-1);
+            count++;
+        }
+        System.out.println("Number of bits to be flipped before converting A to B: "+count);
     }
 }
