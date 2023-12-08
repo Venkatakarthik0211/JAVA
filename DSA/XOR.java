@@ -6,7 +6,7 @@ public class XOR {
         int n = in.nextInt();
         System.out.println("Enter i value: ");
         int i = in.nextInt();
-        int m = (1 << (i - 1));
+        //int m = (1 << (i - 1));
         System.out.println("Swap two numbwes without using third variable");
         swap(n,i);
         System.out.println("Compute the XOR from 1 to n");
