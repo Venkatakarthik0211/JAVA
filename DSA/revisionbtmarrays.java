@@ -11,7 +11,7 @@ public class revisionbtmarrays {
         missing(arr,n);
         in.close();
     }
-    public static void missing(int[] a,int n){
+    public static void missing(int[] a,int n){ // valid to only 0 to n
         int missing = 0;
         for(int i = 0; i<n; i++)
         {

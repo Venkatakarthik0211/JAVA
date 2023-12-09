@@ -6,11 +6,37 @@ public class revisionbitm {
         int n = in.nextInt();
         System.out.println("Enter i value: ");
         int i = in.nextInt();
+        representationANDreverse(n);
         int m = (1 << (i - 1));
         System.out.println("Find the position and delete right most set bit");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
         last(n,i,m);
         System.out.println("Check the ith bit and unset the value: "+reset(n,i,m));
         in.close();
+    }
+    public static void representationANDreverse(int n)
+    {
+        for(int i = 7; i>=0; i--) // 8 bit representation
+        {
+            int mask = (1 << i);
+            if((n & mask) != 0)
+            {
+                System.out.print("1");
+            }
+            else
+            {
+                System.out.print("0");
+            }
+        }
+        System.out.println();
+        System.out.println("Reverse the bits");
+        int ans = 0;    
+        for(int i = 7; i>=0; i--) // 8 bit representation
+        {
+            ans<<= 1;
+            ans = ans|(n&1);
+            n>>=1;
+        }
+        System.out.println(ans);
     }
     public static int reset(int n, int i, int m)
     {
