@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ Main(java.lang.String[])
+comment2.params=data\ head
+comment2.target=node\ push(int,\ node)
+comment3.params=head\ key
+comment3.target=node\ append(node,\ int)
+comment4.params=head
+comment4.target=void\ print(node)
+numComments=5

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Inet
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=ad
+comment2.target=void\ type(java.net.InetAddress)
+comment3.params=ad
+comment3.target=void\ inet(java.net.InetAddress)
+numComments=4

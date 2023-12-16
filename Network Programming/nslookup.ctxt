@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=nslookup
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=host
+comment2.target=java.lang.String\ lookup(java.lang.String)
+comment3.params=host
+comment3.target=boolean\ isHostname(java.lang.String)
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=thread
+comment1.params=task
+comment1.target=thread(java.lang.String)
+comment2.params=
+comment2.target=void\ run()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment4.params=i
+comment4.target=void\ inputS(int)
+numComments=5

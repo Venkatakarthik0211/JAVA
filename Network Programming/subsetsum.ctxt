@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=subsetsum
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=nums
+comment2.target=java.util.List\ subsetsWithDup(int[])
+comment3.params=start\ nums\ subset\ list
+comment3.target=void\ helper(int,\ int[],\ java.util.List,\ java.util.List)
+numComments=4

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=HTTP1
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=u
+comment2.target=void\ get(java.net.URL)
+comment3.params=u
+comment3.target=void\ post(java.net.URL)
+comment4.params=u
+comment4.target=void\ head(java.net.URL)
+numComments=5

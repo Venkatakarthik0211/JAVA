@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=response
+comment1.params=
+comment1.target=java.io.OutputStream\ getBody()
+comment2.params=
+comment2.target=void\ abort()
+comment3.params=
+comment3.target=byte[]\ getData()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment5.params=uri\ rqstMethod\ rqstHeaders
+comment5.target=java.net.CacheResponse\ get(java.net.URI,\ java.lang.String,\ java.util.Map)
+comment6.params=uri\ conn
+comment6.target=java.net.CacheRequest\ put(java.net.URI,\ java.net.URLConnection)
+numComments=7

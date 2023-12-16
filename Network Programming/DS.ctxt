@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=DS
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ DIS()
+comment3.params=a
+comment3.target=void\ DISA(byte[])
+comment4.params=
+comment4.target=byte[]\ DOS()
+numComments=5

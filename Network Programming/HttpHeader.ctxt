@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=HttpHeader
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=u
+comment2.target=void\ configure(java.net.URL)
+comment3.params=u
+comment3.target=void\ info(java.net.URL)
+comment4.params=u
+comment4.target=void\ download(java.net.URL)
+comment5.params=u
+comment5.target=void\ save(java.net.URL)
+numComments=6

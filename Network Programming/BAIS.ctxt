@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=BAIS
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=a\ n
+comment2.target=void\ bais(byte[],\ int)
+comment3.params=a\ n
+comment3.target=void\ baiskip(byte[],\ int)
+comment4.params=a\ n
+comment4.target=void\ baos(byte[],\ int)
+numComments=5
