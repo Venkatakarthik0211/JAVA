@@ -1,3 +1,5 @@
+//The below solution is a brute force solution to the minimum change problem and no
+
 import java.util.*;
 public class minchange {
     public static void main(String agrsp[])
