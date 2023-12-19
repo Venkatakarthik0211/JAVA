@@ -1,4 +1,3 @@
-package DSA.Recursion;
 import java.util.Scanner;
 public class digitsum {
     public static void main(String[] args) {
