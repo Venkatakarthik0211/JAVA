@@ -12,6 +12,7 @@ class swapbitm{
         EOswap(n);
         counteven(n);
         findalternative(n);
+        in.close();
     }
     public static void findalternative(int n)
     {
