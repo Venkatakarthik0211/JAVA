@@ -46,12 +46,12 @@ class patterns
         System.out.println();
         pattern2(n-1,i-1);
     }
-    public static void pattern1(int n,int i)
+    public static void pattern1(int n,int i) 
     {
         if(n==0) return;
-        printrow(i);        
+        printrow(i);  
         System.out.println();
-        pattern1(n-1,i+1);
+        pattern1(n-1,i+1); 
     }
     public static void printrow(int i)
     {
