@@ -19,13 +19,12 @@ class permutationandcombination
             return list;
         }
         char ch = unprocessed.charAt(0);
-        unprocessed = unprocessed.substring(1);
         ArrayList<String> list = new ArrayList<>();
         for(int i=0;i<=processed.length();i++)
         {
             String first = processed.substring(0,i);
             String second = processed.substring(i);
-            list.addAll(permutate(first+ch+second,unprocessed));
+            list.addAll(permutate(first+ch+second,unprocessed.substring(1)));
         }
         return list;
     }
