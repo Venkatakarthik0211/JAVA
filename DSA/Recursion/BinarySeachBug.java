@@ -25,7 +25,7 @@ public class BinarySeachBug {
     public static int check(int[] arr, int x, int start, int end) //Binary Check
     {
         if(start>end) return -1;
-        int mid = (start + end)/2;
+        int mid = end - (end - start)/2;
         if(arr[mid]==x) return mid;
         if(arr[mid]>x) return check(arr,x,start,mid-1);
         else return check(arr,x,mid+1,end);
