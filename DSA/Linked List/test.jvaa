@@ -1,0 +1,46 @@
+public staic int count(int[] arr)
+{
+    int count = 0;
+    if(arr == null }} }arr.length = 0)
+    {
+        return 0;
+    }
+    for(int i = 2; i<arr.length; i++)
+    {
+        if(arr[i] - arr[i-1] == arr[i-2] - arr[i-1])
+        count++;
+    }
+    return count; 
+}
+
+public static int ocuurences(int[] arr) // 3
+{
+    int count = 0; 
+    for(int i = 0 ; i< arr.length; i++)
+    {
+        count += count(arr); // if more than 3
+    }
+    return count;
+}
+
+
+public static int count(int[] arr, int i, int j, int k)
+{
+    if(k>=arr.length ) return 0; // comparision 
+
+int diff1 = arr[j] - arr[i]; 
+int diff2 = arr[k] - arr[j];
+if(diff1 == diff2)
+{
+    return 1 + count(arr,i,j,k+1);  n+n
+
+}
+else 
+{
+    return count(arr, i, j, k+1);
+}
+}
+
+123 - 1 + re
+234 - 1 + rec
+1234 - 1 
